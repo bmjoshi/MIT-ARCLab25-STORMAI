@@ -6,7 +6,7 @@
 **Satellite Tracking and Orbit Resilience Modeling with AI Challenge**
 
 <p align="center">
-  <a href="">Challenge</a> •
+  <a href="https://www.codabench.org/competitions/5547/">Challenge</a> •
   <a href="https://2025-ai-challenge.readthedocs.io/en/latest/README.html">STORM-AI Dataset</a>
   
   
@@ -17,7 +17,7 @@
 
 
 <p align="center">
-  <img src="img/model_architectures.png" width="900" />
+  <img src="img/model-sketch.png" width="500" />
 </p>
 <div align="left">
 
