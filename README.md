@@ -5,31 +5,6 @@
 ## 🌍 Thermospheric Density Forecasting with Machine Learning
 
 **Satellite Tracking and Orbit Resilience Modeling with AI Challenge**
-
-This repository contains the codebase developed for the MIT ARCLab STORM-AI Challenge 2025, focused on forecasting thermospheric orbit-averaged neutral mass density using AI/ML methods. Accurate density prediction is critical for satellite drag modeling, orbit propagation, and space situational awareness—especially during geomagnetically active periods.
-
-The approach integrates physics-informed feature engineering with state-of-the-art machine learning techniques, including:
-
-    🌡️ XGBoost-based Conditional Models for initial density estimation
-
-    🔄 TSLANet (Time Series Lightweight Adaptive Network) for 72-hour density trend forecasting
-
-    ⚙️ Tools for data preprocessing, scaling, and feature extraction based on OMNI2 and ESA SWARM datasets
-
-    📊 Benchmarking against truth data using custom evaluation metrics such as OD-RMSE
-
-This repository is organized for transparency and reproducibility, and includes:
-
-    Training scripts for decision tree and neural models
-
-    Inference pipelines for both Phase 1 and Phase 1.2 datasets
-
-    Environment setup (.yml) and dependencies
-
-    Example visualizations and evaluation outputs
-
-We hope this project helps advance data-driven techniques in thermospheric modeling and supports broader applications in space weather forecasting and satellite operations.
-
 <p align="center">
   <a href="https://www.codabench.org/competitions/5547/">Challenge</a> •
   <a href="https://2025-ai-challenge.readthedocs.io/en/latest/README.html">STORM-AI Dataset</a>
@@ -38,9 +13,30 @@ We hope this project helps advance data-driven techniques in thermospheric model
 [![Python](https://img.shields.io/badge/python-%20%203.10-blue.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
 
+</div>
+
+This repository contains the codebase developed for the MIT ARCLab STORM-AI Challenge 2025, focused on forecasting thermospheric orbit-averaged neutral mass density using AI/ML methods. Accurate density prediction is critical for satellite drag modeling, orbit propagation, and space situational awareness—especially during geomagnetically active periods.
+
+The approach integrates physics-informed feature engineering with state-of-the-art machine learning techniques, including:
+
+  * 🌡️ XGBoost-based Conditional Models for initial density estimation
+  * 🔄 TSLANet (Time Series Lightweight Adaptive Network) for 72-hour density trend forecasting
+  * ⚙️ Tools for data preprocessing, scaling, and feature extraction based on OMNI2 and ESA SWARM datasets
+  * 📊 Benchmarking against truth data using custom evaluation metrics such as OD-RMSE
+
+This repository is organized for transparency and reproducibility, and includes:
+
+* Training scripts for decision tree and neural models
+* Inference pipelines for both Phase 1 and Phase 1.2 datasets
+* Environment setup (.yml) and dependencies
+* Example visualizations and evaluation outputs
+
+We hope this project helps advance data-driven techniques in thermospheric modeling and supports broader applications in space weather forecasting and satellite operations.
+<div align="center">
+
 
 <p align="center">
-  <img src="img/model-sketch.png" width="500" />
+  <img src="img/model-sketch.png" width="400" />
 </p>
 <div align="left">
 
