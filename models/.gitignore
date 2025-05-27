@@ -1,0 +1,26 @@
+# XGBoost v12
+AP_0-32_Alt_201-400
+AP_0-32_Alt_401-600
+AP_156-301_Alt_201-400
+AP_156-301_Alt_401-600
+AP_33-65_Alt_201-400
+AP_33-65_Alt_401-600
+AP_66-94_Alt_201-400
+AP_66-94_Alt_401-600
+AP_95-155_Alt_201-400
+AP_95-155_Alt_401-600
+
+# XGBoost v11
+xgb-model-011-alt-0-f10-0.json
+xgb-model-011-alt-2-f10-0.json
+xgb-model-011-alt-2-f10-1.json
+xgb-model-011-alt-2-f10-2.json
+xgb-model-011-alt-3-f10-0.json
+xgb-model-011-alt-3-f10-1.json
+xgb-model-011-alt-3-f10-2.json
+xgb-model-011-alt-4-f10-0.json
+xgb-model-011-alt-4-f10-1.json
+xgb-model-011-alt-4-f10-2.json
+
+# TSLANet
+tslanet_v5.pkl
