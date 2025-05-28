@@ -42,7 +42,7 @@ We hope this project helps advance data-driven techniques in thermospheric model
 
 ### Directory Structure
 ```bash
-├── data # documentation
+├── docs # documentation
 │   └── STORM_AI_Report_Digantara-v1.pdf # phase-2 report 
 ├── data
 │   └── links.txt # link to gdrive contianing training data
