@@ -75,7 +75,33 @@ We hope this project helps advance data-driven techniques in thermospheric model
     │   │   └── xgb-model-011-alt-4-f10-2.json -> ../../../models/xgb-model-011-alt-4-f10-2.json
     │   ├── submission.py
     │   └── swai
+    │       └── ConditionalXGBModel.py
+    ├── xgb_011_tslanet_hybrid
+    │   ├── environment.yml
+    │   ├── generate_model_class.py
+    │   ├── gppropagator_vec.py
+    │   ├── models
+    │   │   ├── tslanet_v5.pkl -> ../../../models/tslanet_v5.pkl
+    │   │   ├── xgb-model-011-alt-0-f10-0.json -> ../../../models/xgb-model-011-alt-0-f10-0.json
+    │   │   ├── xgb-model-011-alt-2-f10-0.json -> ../../../models/xgb-model-011-alt-2-f10-0.json
+    │   │   ├── xgb-model-011-alt-2-f10-1.json -> ../../../models/xgb-model-011-alt-2-f10-1.json
+    │   │   ├── xgb-model-011-alt-2-f10-2.json -> ../../../models/xgb-model-011-alt-2-f10-2.json
+    │   │   ├── xgb-model-011-alt-3-f10-0.json -> ../../../models/xgb-model-011-alt-3-f10-0.json
+    │   │   ├── xgb-model-011-alt-3-f10-1.json -> ../../../models/xgb-model-011-alt-3-f10-1.json
+    │   │   ├── xgb-model-011-alt-3-f10-2.json -> ../../../models/xgb-model-011-alt-3-f10-2.json
+    │   │   ├── xgb-model-011-alt-4-f10-0.json -> ../../../models/xgb-model-011-alt-4-f10-0.json
+    │   │   ├── xgb-model-011-alt-4-f10-1.json -> ../../../models/xgb-model-011-alt-4-f10-1.json
+    │   │   └── xgb-model-011-alt-4-f10-2.json -> ../../../models/xgb-model-011-alt-4-f10-2.json
+    │   ├── submission.py
+    │   └── swai
+    │       ├── ConditionalHybridModel.py
     │       ├── ConditionalXGBModel.py
+    │       ├── ForecastingModel.py
+    │       ├── __pycache__
+    │       │   ├── ConditionalHybridModel.cpython-38.pyc
+    │       │   ├── ConditionalXGBModel.cpython-38.pyc
+    │       │   ├── ForecastingModel.cpython-38.pyc
+    │       │   └── TSLANet.cpython-38.pyc
     │       └── TSLANet.py
     └── xgb_012 # models are already linked; the folder has to be downloaded from gdrive
         ├── environment.yml
