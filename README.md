@@ -97,11 +97,6 @@ We hope this project helps advance data-driven techniques in thermospheric model
     │       ├── ConditionalHybridModel.py
     │       ├── ConditionalXGBModel.py
     │       ├── ForecastingModel.py
-    │       ├── __pycache__
-    │       │   ├── ConditionalHybridModel.cpython-38.pyc
-    │       │   ├── ConditionalXGBModel.cpython-38.pyc
-    │       │   ├── ForecastingModel.cpython-38.pyc
-    │       │   └── TSLANet.cpython-38.pyc
     │       └── TSLANet.py
     └── xgb_012 # models are already linked; the folder has to be downloaded from gdrive
         ├── environment.yml
