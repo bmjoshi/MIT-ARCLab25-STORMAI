@@ -99,9 +99,6 @@ class ForecastingModel:
         x = x.unsqueeze(0)
         x = x.to(self.device)
 
-        #with open('x.pkl', 'wb') as f_:
-        #    pickle.dump(x, f_)
-
         self.model.eval()
         output = None
         with torch.no_grad():
@@ -110,6 +107,4 @@ class ForecastingModel:
         tarray = np.arange(432)
 
         trend = output['forecasting'].cpu().numpy().flatten()
-        #amp = (np.max(trend)-np.min(trend))
-        #trend = trend+amp*0.05*np.sin(0.2*np.pi*tarray)
         return trend

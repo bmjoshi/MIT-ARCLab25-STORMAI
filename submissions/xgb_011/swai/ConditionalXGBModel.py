@@ -13,9 +13,7 @@ class ConditionalXGBModel:
         self.model = None
         
         self.features = []
-        #self.proxy_prefix = ['average', 'std', 'min', 'max']
         self.proxy_prefix = ['average', 'min', 'max']
-        #self.proxy_vars = ['ap_index_nT', 'f10.7_index', 'Lyman_alpha', 'Dst_index_nT', 'Lyman_alpha2','f10.7_index2', 'Lyman_alpha_f10.7', 'ap_index_nT2', 'ap_index_nT_f10.7', 'xrsb_flux', 'xrsb_flux2','xrsb_flux_Lyman_alpha']
         self.proxy_vars = ['ap_index_nT', 'f10.7_index', 'Lyman_alpha', 'Dst_index_nT', 'Lyman_alpha2','f10.7_index2', 'Lyman_alpha_f10.7', 'ap_index_nT2', 'ap_index_nT_f10.7']
 
         for p in self.proxy_prefix:
@@ -89,7 +87,7 @@ class ConditionalXGBModel:
         self.sw_data['ap_index_nT_f10.7'] = self.sw_data['f10.7_index']*self.sw_data['ap_index_nT']
 
         dt = time[0]
-        start_time = dt - timedelta(days=54)
+        start_time = dt - timedelta(days=5)
 
         # Filter rows from File2 within the 5-day range
         filtered_data = self.sw_data[(self.sw_data['time'] >= start_time) &

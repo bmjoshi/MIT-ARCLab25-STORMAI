@@ -1,3 +1,5 @@
+gcloud*.sh
+
 __pycache__/
 *pyc
 
