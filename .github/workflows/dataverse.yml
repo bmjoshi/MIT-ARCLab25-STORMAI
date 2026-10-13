@@ -1,0 +1,30 @@
+name: Upload repository to Dataverse
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  release:
+    types: [published]
+
+permissions:
+  contents: read
+
+jobs:
+  upload:
+    name: Upload repository files
+    runs-on: ubuntu-latest
+    env:
+      GIT_CONFIG_COUNT: 1
+      GIT_CONFIG_KEY_0: core.symlinks
+      GIT_CONFIG_VALUE_0: false
+
+    steps:
+      - name: Send repository to Dataverse
+        uses: IQSS/dataverse-uploader@v1.7
+        with:
+          DATAVERSE_TOKEN: ${{ secrets.DATAVERSE_TOKEN }}
+          DATAVERSE_SERVER: https://dataverse.harvard.edu
+          DATAVERSE_DATASET_DOI: doi:10.7910/DVN/Y7TR4O
+          DELETE: False
+          PUBLISH: True
